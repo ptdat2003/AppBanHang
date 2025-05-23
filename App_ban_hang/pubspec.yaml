@@ -1,0 +1,63 @@
+name: app_ban_hang
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.0.0
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.2
+  cloud_firestore: ^5.6.6
+  firebase_storage: ^12.4.5
+  flutter_svg:
+  flutter_bloc:
+  dartz:
+  get_it:
+  cached_network_image: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/fonts/
+    - assets/vectors/
+    - assets/images/
+    - assets/images/categories/
+    - assets/images/categories/categories-tshirt/
+    - assets/images/categories/categories-poloshirt/
+    - assets/images/categories/categories-croptop/
+    - assets/images/categories/categories-hoodie/
+    - assets/images/categories/categories-sweater/
+    - assets/images/categories/categories-blouse/
+    - assets/images/categories/categories-turtleneck/
+    - assets/images/products/
+
+
+  fonts:
+    - family: CircularStd
+      fonts:
+        - asset: assets/fonts/NetflixSans-Light.otf
+          weight: 800
+        - asset: assets/fonts/NetflixSans-Bold.otf
+          weight: 700
+        - asset: assets/fonts/NetflixSans-Medium.otf
+          weight: 500
+        - asset: assets/fonts/NetflixSans-Regular.otf
+          weight: 400
+
